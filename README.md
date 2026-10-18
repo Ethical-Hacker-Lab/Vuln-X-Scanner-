@@ -20,6 +20,9 @@ An advanced, automated security assessment tool for web applications. Built with
 
 ### 1. Clone the Repository
 ```bash
+sudo apt update && upgrade -y
+sudo apt install php -y
+install python3
 git clone https://github.com/Ethical-Hacker-Lab/VulnScanner.git
 cd VulnScanner
-
+python3 main.py
